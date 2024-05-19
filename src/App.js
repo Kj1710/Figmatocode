@@ -67,18 +67,22 @@ function App() {
         </section>
         <section className="stats-section">
           <div className="stats-item">
+            <img className="degree" src="degree.png" alt="CoursesImage" srcset="" />
             <div className="stats-number">24</div>
             <div className="stats-label">Courses</div>
           </div>
           <div className="stats-item">
+            <img className="degree" src="Learners.png" alt="" srcset="" />
             <div className="stats-number">30k+</div>
             <div className="stats-label">Learners</div>
           </div>
           <div className="stats-item">
+            <img className="degree" src="doubt.png" alt="DoubtImage" />
             <div className="stats-number">100k+</div>
             <div className="stats-label">Doubts Solved</div>
           </div>
           <div className="stats-item">
+            <img className="degree" src="project.png" alt="" srcset="" />
             <div className="stats-number">10k+</div>
             <div className="stats-label">Student Projects</div>
           </div>
