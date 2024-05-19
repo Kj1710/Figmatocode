@@ -1,5 +1,5 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
@@ -23,9 +23,17 @@ function App() {
       </nav>
       <main>
         <section className="hero-section">
-          <div className="badge">An IIT Delhi Alumni Initiative</div>
-          <h1>Become an Expert in the field of <span>Data Science</span> with 6 courses</h1>
-          <p>A specially crafted Tech Kickstarter, with 5+ extensive online courses.</p>
+          <div className="badge">
+            🎓 An <span className="bold">IIT Delhi</span> Alumni Initiative
+          </div>
+          <h1>
+            Become an Expert in the field of <span>Data Science with 6
+            courses</span>
+          </h1>
+          <p>
+            A specially crafted Tech Kickstarter, with 5+ extensive online
+            courses.
+          </p>
           <div className="features">
             <div className="feature-item">Personal Mentorship</div>
             <div className="feature-item">Internship Assistance</div>
