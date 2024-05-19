@@ -53,12 +53,14 @@ function App() {
             </div>
             <div className="cta-buttons">
               <button className="enroll-button">
-                <img src="path_to_enroll_now_icon" alt="Enroll Now" />
-                Enroll Now
+                
+                Enroll Now  
+                <img className="enroll-image" src="explore.png" alt="Enroll Now" />
               </button>
               <button className="know-more-button">
-                <img src="path_to_know_more_icon" alt="Know More" />
+                
                 Know More
+                <img className="know-image" src="question mark.png" alt="Know More" />
               </button>
             </div>
           </div>
