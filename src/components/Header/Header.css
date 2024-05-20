@@ -10,28 +10,35 @@
     align-items: center;
   }
   
-  .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-  }
+ .log{
+  font-weight: bolder;
+  font-size: large;
+  margin-left: 50px;
+ }
+
+
+
+ 
   
   .auth-links .login-button,
   .auth-links .signup-button {
+   
     background: none;
     border: none;
     cursor: pointer;
     font-size: 1em;
-    margin: 0 10px;
+    margin: 0 15px;
   }
   
   .auth-links .login-button {
-    color: #333;
+    color:  rgba(183, 59, 190, 1);
   }
   
   .auth-links .signup-button {
     color: #fff;
-    background-color: #800080;
-    padding: 5px 15px;
-    border-radius: 5px;
+    background-color: rgba(183, 59, 190, 1)
+;
+    padding: 15px 25px;
+    border-radius: 20px;
   }
   

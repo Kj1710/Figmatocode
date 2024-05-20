@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="App-header">
       <div className="header-content">
-        <div className="logo">LOGO</div>
+        <div className='log'> LOGO</div>
         <div className="auth-links">
           <button className="login-button">Login</button>
           <button className="signup-button">Signup</button>
