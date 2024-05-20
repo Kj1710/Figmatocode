@@ -6,7 +6,7 @@ const Refund = () => {
   return (
     <section className="promo-section" id="refund">
       <h1>
-        Don’t miss out on this <span className="highlight">limited-time opportunity</span> to learn for <span className="highlight">Free</span>!
+        Don’t miss out on this <span className="highlight-refund">limited-time opportunity</span> to learn for <span className="highlight-refund">Free</span>!
       </h1>
       <div className="offer-card">
         <h2>100% Refund Offer 😎</h2>

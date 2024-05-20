@@ -3,29 +3,32 @@
     border: 2px;
     padding: 20px;
     text-align: center;
-   
     margin: 0 auto;
     border-radius: 8px;
-}
-
-.top-companies-title {
+    overflow: hidden; 
+  }
+  
+  .top-companies-title {
     font-size: 34px;
     font-weight: bold;
     color: #333;
-}
-
-.highlight {
-    color: #FF7043;
-}
-
-.logos {
+  }
+  
+  .highlight {
+    background: linear-gradient(to right, #800080, rgba(255, 215, 0, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  
+  .marquee {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 20px;
-}
-
-.logo {
+    animation: marquee 20s linear infinite; 
+  }
+  
+  .logo {
     background-color: #FFF;
     width: 150px;
     height: 100px;
@@ -33,4 +36,15 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     object-fit: contain;
     padding: 10px;
-}
+    margin-right: 150px; 
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
