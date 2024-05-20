@@ -14,7 +14,7 @@ const Refund = () => {
         <div className="progress-bar">
           <div className="progress"></div>
         </div>
-        <div className="offer-timer">Offer ends in 10:00 Mins</div>
+        <div className="offer-timer">⌛ Offer ends in 10:00 Mins</div>
       </div>
       <section className="how-it-works">
         <h2>How does it work?</h2>
