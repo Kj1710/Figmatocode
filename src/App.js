@@ -5,6 +5,7 @@ import Overview from './components/Overview/Overview';
 import Curriculum from './components/Curriculum/Curriculum';
 import Refund from './components/Refund/Refund';
 import './App.css';
+import TopCompanies from './components/Companies/TopCompanies';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Overview />
         <Curriculum />
         <Refund />
+        <TopCompanies/>
       </main>
     </div>
   );
