@@ -1,58 +1,92 @@
 .full-screen {
-    width: 100%;
-    height: 100%;
-  }
+  width: 100%;
+  height: 100%;
+}
+
+.curriculum-section {
+  background: var(--Eminence-50, rgba(252, 245, 254, 1));
+  padding: 50px 20px;
+}
+
+.curriculum-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center; }
+
+.learning-path {
+  border: 1px solid var(--Eminence-200, rgba(244, 214, 248, 1));
   
-  .curriculum-section {
-    background-color: #f9f9f9;
-    padding: 50px 20px;
-  }
+  font-size: 1.2em;
+  background:  rgb(203, 161, 206);
+  color: #9a1c9a;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 125px;
   
-  .curriculum-container {
-    width: 80%;
-    margin: 0 auto;
-  }
+}
+.title {
+  font-size: 2.7em;
+  margin-bottom: 40px;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #800080, rgba(255, 215, 0, 1));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.normal-text {
+  color: grey;
+}
+
+
+
   
-  .container {
-    text-align: left;
-  }
-  
-  .learning-path {
-    font-size: 1em;
-    color: #800080;
-    border: 1px solid #800080;
-    display: inline-block;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-  }
-  
-  .title {
-    font-size: 2em;
-    margin-bottom: 40px;
-  }
-  
+.course-card {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-info {
+  max-width: 70%;
+}
+
+.eyeimage {
+  height: 30px;
+  margin-right: 10px; 
+}
+
+.view-curriculum-btn {
+  background: var(--Eminence-50, rgba(249, 235, 252, 1));
+  font-size: larger;
+  color: rgba(183, 59, 190, 1);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+}
+
+@media only screen and (max-width: 768px) {
   .course-card {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
+
   .course-info {
-    max-width: 70%;
+    margin-bottom: 15px;
   }
-  
-  .view-curriculum-btn {
-    background-color: #800080;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
+
+
+}
+
