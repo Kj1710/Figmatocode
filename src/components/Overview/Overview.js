@@ -12,7 +12,7 @@ const Overview = () => {
             </div>
             <h1>
               <span className="grey-text">Become an Expert in the</span>
-              field of <span className="highlight-text"> Data Science </span>
+              <span className="grey-text">field of</span>   <span className="highlight-text"> Data Science </span>
               <br />
               <span className="highlight-text">With 6 courses! </span>
             </h1>
