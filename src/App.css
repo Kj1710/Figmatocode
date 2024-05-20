@@ -103,9 +103,9 @@ body {
 
 .hero-section .highlight-text {
   color: #800080;
-  
 }
-.image{
+
+.image {
   height: 20px;
 }
 
@@ -154,32 +154,48 @@ body {
   font-size: 1em;
 }
 
-.enroll-image{
+.enroll-image {
   height: 20px;
-  margin: 10px 10px;
+  margin: 5px 5px 5px 10px;
 }
- .know-image{
-height: 20px;
-margin: 5px 5px;
- }
 
+.know-image {
+  height: 20px;
+  margin: 5px 5px;
+}
 
 .know-more-button {
   background-color: #fff;
   color: #333;
-
 }
 
 .stats-section {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  padding: 50px 20px;
   background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .stats-item {
+  display: flex;
+  align-items: center;
   text-align: center;
+  flex: 1;
+}
+
+.stats-image {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.stats-info {
+  text-align: left;
 }
 
 .stats-number {
@@ -192,6 +208,215 @@ margin: 5px 5px;
   font-size: 1.2em;
 }
 
-.degree {
-  height: 70px;
+.separator {
+  color: rgba(128, 0, 128, 0.5);
+  font-size: 3em;
+  text-align: center;
+  margin-right: 40px;
+}
+
+.full-screen {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e9ff;
+}
+
+.curriculum-section {
+  
+  padding: 50px 0;
+}
+
+.curriculum-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+}
+
+.learning-path {
+  background-color: #ff69b4;
+  color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+}
+
+.title {
+  
+  text-align: center;
+  color: #7c49fe;
+  font-size: 1.5em;
+  margin-bottom: 50px;
+}
+
+.course-card {
+
+  background-color: #ffffff;
+  padding: 25px;
+
+  display: flex;
+  justify-content: space-between;
+ 
+ margin-right: 50px;
+  box-shadow: 0 4px 8px rgba(15, 14, 14, 0.1);
+}
+
+.course-info h2 {
+ 
+  margin: 0;
+  font-size: 1.2em;
+  color: #333333;
+}
+
+.course-info p {
+  margin: 5px 0 0;
+  font-size: 0.9em;
+  color: #666666;
+}
+
+.highlight {
+  color: #ff69b4;
+  font-weight: bold;
+}
+
+.eyeimage{
+  height:22px
+  
+}
+.view-curriculum-btn {
+  background-color: #7c49fe;
+  color: #ffffff;
+  border: none;
+  margin-left: 400px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.view-curriculum-btn:hover {
+  background-color: #6b3de8;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.promo-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.promo-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #800080;
+  font-weight: bold;
+}
+
+.offer-card {
+  background-color: #800080;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 80%;
+  max-width: 400px;
+}
+
+.offer-card h2 {
+  margin: 0;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.seats-left {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  height: 10px;
+  position: relative;
+}
+
+.progress {
+  background-color: #ff69b4;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+
+.offer-timer {
+  font-size: 1em;
+}
+
+.how-it-works {
+  padding: 40px 20px;
+}
+
+.how-it-works h2 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.step {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  min-width: 200px;
+}
+
+.step-number {
+  background-color: #800080;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.step h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 1em;
 }
