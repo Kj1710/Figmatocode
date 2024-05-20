@@ -2,13 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './InternshipProgram.css';
 
 
-const steps = [
-    "Learn from our structured pre-recorded courses made by experts to meet industry needs",
-    "1:1 live doubt solving support available throughout the day to clear your doubts instantly",
-    "Personal mentors to guide and help you throughout your journey as a friend",
-    "Build major projects which makes your resume stand apart",
-    "Get guaranteed paid internships after completion of the program along with course completion certificates"
-];
+
 
 const InternshipProgram = () => {
     const [isSmallScreen, setIsSmallScreen] = useState(false);
