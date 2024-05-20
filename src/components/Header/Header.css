@@ -1,44 +1,64 @@
 .App-header {
-    background-color: #fff;
-    padding: 10px 40px;
-    border-bottom: 1px solid #e0e0e0;
-  }
-  
-  .header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
- .log{
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.log {
   font-weight: bolder;
   font-size: large;
-  margin-left: 50px;
- }
+  margin-left: 20px; 
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+}
+
+.auth-links .login-button,
+.auth-links .signup-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  margin: 0 10px; 
+}
+
+.auth-links .login-button {
+  color: rgba(183, 59, 190, 1);
+}
+
+.auth-links .signup-button {
+  color: #fff;
+  background-color: rgba(183, 59, 190, 1);
+  padding: 10px 20px; 
+  border-radius: 20px;
+}
 
 
+@media only screen and (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
- 
-  
+  .log {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
   .auth-links .login-button,
   .auth-links .signup-button {
-   
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1em;
-    margin: 0 15px;
+    margin: 0;
   }
-  
-  .auth-links .login-button {
-    color:  rgba(183, 59, 190, 1);
-  }
-  
+
   .auth-links .signup-button {
-    color: #fff;
-    background-color: rgba(183, 59, 190, 1)
-;
-    padding: 15px 25px;
-    border-radius: 20px;
+    margin-top: 10px;
   }
-  
+}
