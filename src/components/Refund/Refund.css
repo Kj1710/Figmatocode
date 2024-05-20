@@ -1,0 +1,99 @@
+.promo-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .promo-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #800080;
+    font-weight: bold;
+  }
+  
+  .offer-card {
+    background-color: #800080;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .offer-card h2 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .seats-left {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 10px;
+    position: relative;
+  }
+  
+  .progress {
+    background-color: #ff69b4;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+  }
+  
+  .offer-timer {
+    font-size: 1em;
+  }
+  
+  .how-it-works {
+    padding: 40px 20px;
+  }
+  
+  .how-it-works h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .step {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    min-width: 200px;
+  }
+  
+  .step-number {
+    background-color: #800080;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .step h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 1em;
+  }
+  

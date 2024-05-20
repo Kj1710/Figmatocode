@@ -1,0 +1,58 @@
+.full-screen {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .curriculum-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+  }
+  
+  .curriculum-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .container {
+    text-align: left;
+  }
+  
+  .learning-path {
+    font-size: 1em;
+    color: #800080;
+    border: 1px solid #800080;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .course-info {
+    max-width: 70%;
+  }
+  
+  .view-curriculum-btn {
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
