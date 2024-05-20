@@ -7,6 +7,7 @@ import Refund from './components/Refund/Refund';
 import './App.css';
 import TopCompanies from './components/Companies/TopCompanies';
 import CertificatesAndInternships from './components/Certificates/CertificatesAndInternships';
+import InternshipProgram from './components/Internship/InternshipProgram';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Refund />
         <TopCompanies/>
         <CertificatesAndInternships/>
+        <InternshipProgram/>
       </main>
     </div>
   );

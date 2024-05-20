@@ -1,0 +1,88 @@
+.internship-program-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #800080;
+    margin-bottom: 40px;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.step {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    margin: 20px 0;
+}
+
+.step.up {
+    align-self: flex-start;
+}
+
+.step.down {
+    align-self: flex-end;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.step p {
+    font-size: 14px;
+    color: #333;
+}
+
+.connector {
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background-color: #800080;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    z-index: 0;
+}
+
+.step.up .connector {
+    top: 100%;
+}
+
+.step.down .connector {
+    top: -100%;
+}
+
+.apply-button {
+    margin-top: 40px;
+    background-color: #800080;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.last{
+    width:100%
+}
