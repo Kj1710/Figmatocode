@@ -6,6 +6,7 @@ import Curriculum from './components/Curriculum/Curriculum';
 import Refund from './components/Refund/Refund';
 import './App.css';
 import TopCompanies from './components/Companies/TopCompanies';
+import CertificatesAndInternships from './components/Certificates/CertificatesAndInternships';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Curriculum />
         <Refund />
         <TopCompanies/>
+        <CertificatesAndInternships/>
       </main>
     </div>
   );
